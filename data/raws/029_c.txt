@@ -1,0 +1,6 @@
+GET https://hsdmobile.cchealth.org/WSFFISMobile/AttachmentViewer.aspx?FileName=County-Seal-No-Background48x48.png&FileType=png&ObjectKey=1b05ea0e-9350-4022-9044-71b5dd046b8a HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SCH-I829 Build/JZO54K)
+Host: hsdmobile.cchealth.org
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

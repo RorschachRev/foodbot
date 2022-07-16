@@ -1,0 +1,65 @@
+{
+    "Events": [{
+        "ActionDescription": "",
+        "ActivityDate": "05\/19\/2017",
+        "Details": [{
+            "Description": "Inadequate ventilation or lighting",
+            "InspectionRptURL": null,
+            "ProgramCategory": "~",
+            "Summary": "",
+            "ViolationCode": "64"
+        }, {
+            "Description": "Inadequate and inaccessible handwashing facilities",
+            "InspectionRptURL": null,
+            "ProgramCategory": "~",
+            "Summary": "",
+            "ViolationCode": "19"
+        }, {
+            "Description": "High risk food holding temperature",
+            "InspectionRptURL": null,
+            "ProgramCategory": "~",
+            "Summary": "",
+            "ViolationCode": "9"
+        }],
+        "FacilityDescription": null,
+        "Grade": null,
+        "Score": "87",
+        "ServiceDescription": "Routine"
+    }, {
+        "ActionDescription": "",
+        "ActivityDate": "02\/26\/2016",
+        "Details": [{
+            "Description": "Inadequate ventilation or lighting [ date violation corrected: 2\/26\/2016 ]",
+            "InspectionRptURL": null,
+            "ProgramCategory": "~",
+            "Summary": "",
+            "ViolationCode": "64"
+        }, {
+            "Description": "Improper cooling methods [ date violation corrected: 2\/26\/2016 ]",
+            "InspectionRptURL": null,
+            "ProgramCategory": "~",
+            "Summary": "",
+            "ViolationCode": "4"
+        }],
+        "FacilityDescription": null,
+        "Grade": null,
+        "Score": "91",
+        "ServiceDescription": "Routine"
+    }],
+    "Facility": {
+        "Address1": "1275 EVANS AVE.",
+        "AgencyID": 446,
+        "City": "San Francisco",
+        "FacilityID": "39054",
+        "FacilityName": "TACOS RODRIGUEZ",
+        "Grade": null,
+        "HasFullInspectionReports": false,
+        "Latitude": 37.73945,
+        "Longitude": -122.382273,
+        "MilesDistant": 0,
+        "Phone": "(415) 424-6731",
+        "Score": "87",
+        "State": "CA",
+        "ZIP": "94124"
+    }
+}

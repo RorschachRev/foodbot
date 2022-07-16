@@ -1,0 +1,25 @@
+Pinal County, AZ
+http://www.pinalcountyaz.gov/EnvironmentalHealth/Pages/Pinal-County-Food-Inspections.aspx
+Searched by blank Establishment Name w/Year 2019
+The results gives you a table with a list of 20 establishments per page and all of them does a javascript:__doPostBack to pull of the record
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl02$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl03$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl04$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl05$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl06$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl07$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl08$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl09$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl10$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl11$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl12$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl13$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl14$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl15$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl16$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl17$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl18$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl19$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl20$lblTooltip','')
+javascript:__doPostBack('ctl00$m$g_241dedc4_0ae6_4e4e_9e19_ac4e291b82a4$ctl00$ctl04$gv_Results$ctl21$lblTooltip','')
+Repeated for 365 Results as of 2/27/19 

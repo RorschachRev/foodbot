@@ -1,0 +1,157 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 20 Jun 2018 01:10:40 GMT
+Content-Length: 6294
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>
+	Violation Details
+</title><meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><link rel="shortcut icon" type="image/x-icon" href="http://www.cchealth.org/favicon.ico" /><link href="Styles/StyleSheet.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./violations.aspx?agencyid=633&amp;category=%7e&amp;violationcode=86" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjEyNzAwODQ5ZBgBBRhMZWdlbmRDdGwkR3JhZGVzR3JpZFZpZXcPPCsADAEIAgFk9nVCzP9Vhi6oALqvdjLOCkEyw30rufLRoHAhE3d8Gk0=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="440F57C3" />
+</div>
+<a name="top"></a>
+    <h1 class="pageTitle">Violation Details</h1>
+    <br />
+    <div id="HeaderPanel">
+	
+        <span id="NoteLBL">Note: this violation code is a general description of an infraction that was documented by inspectors during a site visit.</span>
+    
+</div>
+<h2></h2>
+           <a name="86"></a><span class="sectionTitle"> 86 Violation: Food safety certification and food handler cards: valid, available for review</span><br /><br /><br /><br /><br />
+
+    <div id="FooterPanel">
+	
+
+    
+
+<div id="LegendCtl_LegendPanel">
+		
+<div style="height:7px;"></div>
+<span id="LegendCtl_Label1" style="font-weight:bold;">Grading Legend</span>
+<div style="height:7px;"></div>
+<div>
+			<table cellspacing="2" id="LegendCtl_GradesGridView">
+				<tr>
+					<th scope="col">&nbsp;</th><th scope="col">&nbsp;</th><th scope="col">Grade</th><th scope="col">&nbsp;</th><th align="left" scope="col">Description</th>
+				</tr><tr>
+					<td>
+                <img id="LegendCtl_GradesGridView_Png96IMG_0" src="AttachmentViewer.aspx?FileName=green.png&amp;FileType=png&amp;ObjectKey=483fbb35-0e12-4e92-9209-fbbc1cc4aefc" alt="Grade graphic image" style="height:30px;width:30px;" />
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_0">G</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_0">Green means good to go. The restaurant or food facility can have no more than one major violation, which must be corrected during the inspection.</span>
+                </td>
+				</tr><tr>
+					<td>
+                
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_1">NA</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_1"></span>
+                </td>
+				</tr><tr>
+					<td>
+                <img id="LegendCtl_GradesGridView_Png96IMG_2" src="AttachmentViewer.aspx?FileName=red.png&amp;FileType=png&amp;ObjectKey=54156ab5-4111-4ace-8632-ec41ded0ecd8" alt="Grade graphic image" style="height:30px;width:30px;" />
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_2">R</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_2">Red means stop. The restaurant or food facility is closed because of violations that are a danger to the public’s health and safety.</span>
+                </td>
+				</tr><tr>
+					<td>
+                
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_3">U</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_3"></span>
+                </td>
+				</tr><tr>
+					<td>
+                <img id="LegendCtl_GradesGridView_Png96IMG_4" src="AttachmentViewer.aspx?FileName=yellow2.png&amp;FileType=png&amp;ObjectKey=c86147d6-04d6-4c22-9c83-0045b301f851" alt="Grade graphic image" style="height:30px;width:30px;" />
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_4">Y</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_4">Yellow means caution. The restaurant or food facility has two or more major violations and will be -inspected again within 3 business days.</span>
+                </td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+
+
+        <div style="height: 7px;"></div>
+        <hr />
+        <div style="height: 3px;"></div>
+    <!-- BEGIN SIGNATURE INCLUDE -->
+
+    <div class="signature_box">
+
+    <div class="box_light_blue">
+    Content provided by 
+        <a id="DivisionHL" href="http://smchealth.org/food">Environmental Health</a>.
+    </div>
+    </div>
+
+    <!-- END SIGNATURE INCLUDE   -->
+
+    <!-- BEGIN FOOTER ELEMENT -->
+
+  	<br />
+
+  	<!-- BEGIN NESTED TABLE FOR 2-COLUMN FORMAT -->
+
+  	<table cellspacing="0" cellpadding="4" border="0">
+  	<tr>
+  	<td valign="top">
+          <a id="CountyGraphicHL" href="http://www.smcgov.org/"><img id="CountyGraphicIMG" src="AttachmentViewer.aspx?FileName=SM96x96.png&amp;FileType=png&amp;ObjectKey=264f6ab7-1016-4b46-8b70-21f92649b3e0" alt="County graphic" style="width:70px;" /></a>
+  	</td>
+
+  	<td>&nbsp;</td>
+
+  	<td>
+  	<div id="footer" class="smalltext">
+          <span id="CountyDescriptionLBL">County of San Mateo, California, USA</span><br />
+  	Copyright &copy; 
+          <span id="CopyrightLBL">2013-2018</span>&nbsp;
+          <a id="DepartmentNameHL" href="http://smchealth.org/">County of San Mateo Health System</a>
+          <div style="height:10px;"></div>
+          <span id="Label2" style="font-size:Small;">Updated: </span>
+          <span id="LastFullImportDateLBL" style="font-size:Small;">06/16/2018 07:33</span>
+          <div style="height:10px;"></div>
+          <a id="TopOfPageHL" href="Violations.aspx?AgencyID=633">View all possible violations</a>
+
+  	</div>
+
+  	</td>
+  	</tr>
+
+  	</table>
+
+  	<!-- END NESTED TABLE FOR 2-COLUMN FORMAT -->
+
+    <!-- END FOOTER ELEMENT -->
+    
+</div>
+
+
+    </form>
+</body>
+</html>

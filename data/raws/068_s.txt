@@ -1,0 +1,33 @@
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 18:08:05.364
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes128 128bits
+Hash Algorithm: Sha256 ?bits
+Key Exchange: ECDHE_RSA (0xae06) 256bits
+
+== Server Certificate ==========
+[Subject]
+  CN=*.googleapis.com, O=Google LLC, L=Mountain View, S=California, C=US
+
+[Issuer]
+  CN=Google Internet Authority G3, O=Google Trust Services, C=US
+
+[Serial Number]
+  1908D511697F1EE4
+
+[Not Before]
+  5/23/2018 3:23:25 AM
+
+[Not After]
+  8/15/2018 2:09:00 AM
+
+[Thumbprint]
+  2EF1044F1CE08B13D50BE94EC74E59D6AC287173
+
+[SubjectAltNames]
+*.googleapis.com, *.clients6.google.com, *.cloudendpointsapis.com, cloudendpointsapis.com, googleapis.com

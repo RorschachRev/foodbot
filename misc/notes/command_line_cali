@@ -1,0 +1,18 @@
+>>> f=open('fullcalidump')
+>>> j=json.load(f)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'json' is not defined
+>>> import json
+>>> j=json.load(f)
+>>> f.close()
+>>> j[1]
+{'MilesDistant': 0, 'FacilityID': 'GID1173', 'HasFullInspectionReports': False, 'Phone': None, 'FacilityName': 'COASTSIDE FARMS SPECIALTIES', 'ZIP': '95000', 'Grade': 'G', 'City': 'BLUE LAKE', 'Address1': '203 TAILOR WY', 'Score': '', 'State': 'CA', 'Latitude': 40.878789, 'AgencyID': 633, 'Longitude': -123.994529}
+>>> for line in j:
+...     if(line['HasFullInspectionReports']):
+...             full.append(line)
+>>> full.__len__()
+3772
+>>> full[1]
+{'MilesDistant': 0, 'FacilityID': 'FA0008636', 'HasFullInspectionReports': True, 'Phone': '(510) 234-9990', 'FacilityName': 'SANTA FE MARKET', 'ZIP': '94801', 'Grade': 'P', 'City': 'RICHMOND', 'Address1': '155 W RICHMOND AVE ', 'Score': None, 'State': 'CA', 'Latitude': 37.926095, 'AgencyID': 2, 'Longitude': -122.385881}
+>>> fullrep=pickle.loads(r.get("ca_2_FA0008636"))

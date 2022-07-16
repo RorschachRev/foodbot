@@ -1,0 +1,10 @@
+
+url='http://www2.phd1.idaho.gov/Foodsearch/foodsearch.asp#'
+page=requests.post(url,data=data,cookies=cookies)
+cookies={'Cookie':' __utmz=1.1532710216.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ASPSESSIONIDCCATSBQQ=NCNBDCCCAHHHLIJJNOPHMOLF; __utmc=1; ASPSESSIONIDACDTTARQ=PKFHCNECOELDNGBFHOJGGIMN; __utma=1.1377567761.1532710216.1534365354.1534370977.5; __utmt=1; __utmb=1.2.10.1534370977' }
+data='cboNameOption=0&txtName=&cboCity=All&foOperation=ResultListing&hID=0'
+page=requests.post(url,data=data,cookies=cookies)
+cookies={'Cookie': '__utmz=1.1532710216.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);'' __utma=1.1377567761.1532710216.1534447809.1534518719.10;' '__utmc=1;' '__utmt=1;' '__utmb=1.2.10.1534518719'}
+cookies=page1.cookies._cookies.get('www2.phd1.idaho.gov').get('/')
+
+{'ASPSESSIONIDCCDTSBRQ': Cookie(version=0, name='ASPSESSIONIDCCDTSBRQ', value='BHCBKCHDJIHHLAMDGCFAPCCA', port=None, port_specified=False, domain='www2.phd1.idaho.gov', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=None, discard=True, comment=None, comment_url=None, rest={}, rfc2109=False)}

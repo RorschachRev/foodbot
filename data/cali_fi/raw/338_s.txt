@@ -1,0 +1,142 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 20 Jun 2018 01:10:18 GMT
+Content-Length: 5748
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>
+	Violation Details
+</title><meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><link rel="shortcut icon" type="image/x-icon" href="http://www.cchealth.org/favicon.ico" /><link href="Styles/StyleSheet.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./violations.aspx?agencyid=4&amp;category=%7e&amp;violationcode=3" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjEyNzAwODQ5ZBgBBRhMZWdlbmRDdGwkR3JhZGVzR3JpZFZpZXcPPCsADAEIAgFk9nVCzP9Vhi6oALqvdjLOCkEyw30rufLRoHAhE3d8Gk0=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="440F57C3" />
+</div>
+<a name="top"></a>
+    <h1 class="pageTitle">Violation Details</h1>
+    <br />
+    <div id="HeaderPanel">
+	
+        <span id="NoteLBL">Note: this violation code is a general description of an infraction that was documented by inspectors during a site visit.</span>
+    
+</div>
+<h2></h2>
+           <a name="3"></a><span class="sectionTitle"> Violation: Adequate handwashing facilities supplied &amp; accessi</span><br /><br /><br /><br /><br />
+
+    <div id="FooterPanel">
+	
+
+    
+
+<div id="LegendCtl_LegendPanel">
+		
+<div style="height:7px;"></div>
+<span id="LegendCtl_Label1" style="font-weight:bold;">Grading Legend</span>
+<div style="height:7px;"></div>
+<div>
+			<table cellspacing="2" id="LegendCtl_GradesGridView">
+				<tr>
+					<th scope="col">&nbsp;</th><th scope="col">&nbsp;</th><th scope="col">Grade</th><th scope="col">&nbsp;</th><th align="left" scope="col">Description</th>
+				</tr><tr>
+					<td>
+                <img id="LegendCtl_GradesGridView_Png96IMG_0" src="AttachmentViewer.aspx?FileName=green.png&amp;FileType=png&amp;ObjectKey=442fea44-1dbe-4479-aa83-4f666a3ec866" alt="Grade graphic image" style="height:30px;width:30px;" />
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_0">G</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_0">Good food handling practices and overall food facility maintenance and sanitation. (No more than one corrected major CDC Risk Factor violation) </span>
+                </td>
+				</tr><tr>
+					<td>
+                <img id="LegendCtl_GradesGridView_Png96IMG_1" src="AttachmentViewer.aspx?FileName=red.png&amp;FileType=png&amp;ObjectKey=bd7c262f-4dc4-4eb6-aff4-9d2473f33825" alt="Grade graphic image" style="height:30px;width:30px;" />
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_1">R</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_1">
+Poor food handling practices and overall food facility maintenance and sanitation.  The facility shall be immediately closed. </span>
+                </td>
+				</tr><tr>
+					<td>
+                <img id="LegendCtl_GradesGridView_Png96IMG_2" src="AttachmentViewer.aspx?FileName=yellow2.png&amp;FileType=png&amp;ObjectKey=70f05ea0-97d3-4f18-a4a7-1bafbabadf35" alt="Grade graphic image" style="height:30px;width:30px;" />
+            </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_GradeLBL_2">Y</span>
+                </td><td>&nbsp;</td><td>
+                    <span id="LegendCtl_GradesGridView_DescriptionLBL_2">Minimally acceptable food handling practices and overall food facility maintenance and sanitation.  Violations must be corrected within seven (7) days to ensure improved food handling practices and overall food facility maintenance and sanitation. </span>
+                </td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+
+
+        <div style="height: 7px;"></div>
+        <hr />
+        <div style="height: 3px;"></div>
+    <!-- BEGIN SIGNATURE INCLUDE -->
+
+    <div class="signature_box">
+
+    <div class="box_light_blue">
+    Content provided by 
+        <a id="DivisionHL" href="https://www.acgov.org/aceh/">Alameda County Data Sharing Initiative</a>.
+    </div>
+    </div>
+
+    <!-- END SIGNATURE INCLUDE   -->
+
+    <!-- BEGIN FOOTER ELEMENT -->
+
+  	<br />
+
+  	<!-- BEGIN NESTED TABLE FOR 2-COLUMN FORMAT -->
+
+  	<table cellspacing="0" cellpadding="4" border="0">
+  	<tr>
+  	<td valign="top">
+          <a id="CountyGraphicHL" href="http://www.acgov.org/"><img id="CountyGraphicIMG" src="AttachmentViewer.aspx?FileName=Alameda@2x.png&amp;FileType=png&amp;ObjectKey=001fc08f-5a09-42db-846a-0fe6efbf9c4d" alt="County graphic" style="width:70px;" /></a>
+  	</td>
+
+  	<td>&nbsp;</td>
+
+  	<td>
+  	<div id="footer" class="smalltext">
+          <span id="CountyDescriptionLBL">Alameda County, California, USA</span><br />
+  	Copyright &copy; 
+          <span id="CopyrightLBL">2012-2018</span>&nbsp;
+          <a id="DepartmentNameHL" href="http://www.acgov.org/">Alameda County</a>
+          <div style="height:10px;"></div>
+          <span id="Label2" style="font-size:Small;">Updated: </span>
+          <span id="LastFullImportDateLBL" style="font-size:Small;">06/17/2018 05:57</span>
+          <div style="height:10px;"></div>
+          <a id="TopOfPageHL" href="Violations.aspx?AgencyID=4">View all possible violations</a>
+
+  	</div>
+
+  	</td>
+  	</tr>
+
+  	</table>
+
+  	<!-- END NESTED TABLE FOR 2-COLUMN FORMAT -->
+
+    <!-- END FOOTER ELEMENT -->
+    
+</div>
+
+
+    </form>
+</body>
+</html>

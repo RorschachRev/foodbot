@@ -1,0 +1,6 @@
+GET https://hsdmobile.cchealth.org/WSFFISMobile/AttachmentViewer.aspx?FileName=96x96.png&FileType=png&ObjectKey=4468ac69-c65b-4466-9bbd-7d76dc5841f0 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SCH-I829 Build/JZO54K)
+Host: hsdmobile.cchealth.org
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

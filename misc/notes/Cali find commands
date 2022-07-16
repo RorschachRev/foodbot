@@ -1,0 +1,17 @@
+"ca_" + str(rec[1]['Facility']['AgencyID']) + "_" + str(rec[1]['Facility']['FacilityID'])               REDIS record name
+rec[1]['Facility']['FacilityName']                                                                      Facility name
+                                                                                                        status of record
+rec[1]['Facility']['ZIP']                                                                               ZIP code
+rec[1]['Facility']['Address1'] + " " + rec[1]['Facility']['City'] + ' ' + rec[1]['Facility']['State'] + " " + rec[1]['Facility']['ZIP']   Google-able address
+rec[1]['Facility']['Phone']                                                                             Phone Number
+rec[1]['Facility']['Grade']                                                                             Current grade
+rec[1]['Events'][x]['ServiceDescription']                                                               Type of Last(x+1) Event
+rec[1]['Events'].__len__()                                                                              Number of Events
+rec[1]['Events'][x]['ActivityDate']                                                                     Date of Last(x+1) Event 
+rec[1]['Events'][x]['Grade']                                                                            Grade of Last(x+1) Event
+x = how many events ago
+y = what violation you want in the order found on the report
+AgencyID=rec[1]['Facility']['AgencyID']
+VioCode=rec[1]['Events'][x]['Details'][y]['ViolationCode']
+'https://hsdmobile.cchealth.org/WSFFISMobile/violations.aspx?agencyid='+str(AgencyID)+'&category=~&violationcode='+str(VioCode)   Link to Violation Details
+https://hsdmobile.cchealth.org/WSFFISMobile/facade/GetLastAgencyUpdate                                  Link to how long ago this was updated

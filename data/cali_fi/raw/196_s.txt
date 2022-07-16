@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1542
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 20 Jun 2018 01:08:11 GMT
+
+{"Events":[{"ActionDescription":"","ActivityDate":"06\/25\/2017","Details":[{"Description":"Violation: Handwashing Facilities: supplied and accessible*","InspectionRptURL":null,"ProgramCategory":"~","Summary":"","ViolationCode":"97"}],"FacilityDescription":null,"Grade":"G","Score":null,"ServiceDescription":"Inspection"},{"ActionDescription":"","ActivityDate":"06\/12\/2016","Details":[{"Description":"Violation: Food properly labeled & honestly presented","InspectionRptURL":null,"ProgramCategory":"~","Summary":"","ViolationCode":"84"},{"Description":"Violation: Thermometers provided and accurate","InspectionRptURL":null,"ProgramCategory":"~","Summary":"","ViolationCode":"159"},{"Description":"Violation: Proper hot and cold holding temperatures*","InspectionRptURL":null,"ProgramCategory":"~","Summary":"","ViolationCode":"145"},{"Description":"Violation: Handwashing Facilities: supplied and accessible*","InspectionRptURL":null,"ProgramCategory":"~","Summary":"","ViolationCode":"97"},{"Description":"Violation: Hands clean and properly washed; proper glove use","InspectionRptURL":null,"ProgramCategory":"~","Summary":"","ViolationCode":"95"}],"FacilityDescription":null,"Grade":"G","Score":null,"ServiceDescription":"Inspection"}],"Facility":{"Address1":"203 TAILOR WY","AgencyID":633,"City":"BLUE LAKE","FacilityID":"GID1173","FacilityName":"COASTSIDE FARMS SPECIALTIES","Grade":"G","HasFullInspectionReports":false,"Latitude":40.878789,"Longitude":-123.994529,"MilesDistant":0,"Phone":null,"Score":"","State":"CA","ZIP":"95000"}}

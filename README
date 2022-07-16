@@ -1,0 +1,45 @@
+This repository has been restructured, but nothing should have been deleted. All db.* file, as well as all *.log files have been ignored in the updated .gitignore, and any files previously tracked by git of those types have been removed.
+
+The bots have been re-organized into three distinct directories:
+
+	goodbots/ - This is where completed && tested bots should live
+	devbots/ - This is where bots-in-progress should live
+	badbots/ - This is where bots that are deemed unworthy of our time should live
+
+When starting work on a new bot or one from the existing devbots/, move that bot into your devbots/<name> directory. This will keep a clean separation between everyone's WIP bots. We can avoid git conflicts, as well as easily track work being done with this method.
+
+The testbots/ directory is where bot-generated db.* files should be moved to when they are ready for testing. It is recommended, but not required (as the files aren't tracked) to remove the db.* files from this directory once they have been confirmed as working.
+		** In a later release, the test_my_bot.py tester may be altered to look at the db.* files stored in the db/ directory.
+
+The db.* directory is the directory that your bots should be creating/writing into their databases. The canonical name of databases is as such:
+
+	db.az_cochise
+	db.oh_franklin
+	db.il_stclair
+
+The logs/ directory is where your foodbots should write their output to. None of these files will be tracked in the repository, but the recommended naming convention is as such:
+
+	food_AZ_Cochise.log
+	food_IL_Pike.log
+	food_NY_Erie.log
+
+Foodbot naming conventions are as such:
+
+	food_IL_Monroe.py
+	food_UT_Utah.py
+	food_IL_pike.py
+
+Foodbots which require the use of Selenium shall follow the following naming convention:
+	
+	sefood_IL_Franklin.py
+	sefood_NY_Erie.py
+	sefood_MT_Cascade.py
+
+The data/ directory will be where non-web scraping information will be stored, pdfs, etc.
+
+The misc/ directory is where to put any files that do not fit into the above directories, but should be tracked anyways.
+
+ALL DEVELOPMENT SHOULD BE DONE IN `git branch dev`
+DO NOT PUSH TO `master`
+
+When a bot is completed, tested, and moved into goodbots, let either Ian or Alex know so that they can do the necessary merging/tagging required to move the bots onto the production branch.

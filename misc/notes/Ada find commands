@@ -1,0 +1,24 @@
+'ada' + adarec[1][1]                        Redis key name
+adarec[1][3][0] + ", " + adarec[1][4][0]    Google-able license
+adarec[0]                                   Url
+adarec[1][1]                                LicenseNo
+adarec[1][2]                                Facility Name
+adarec[1][3]                                Address
+adarec[1][4][0][:-10]                       City
+adarec[1][4][0][-8:-3]                      ZIP code
+adarec[1][8][0]                             License Status
+adarec[1][8][1]                             Phone Number
+adarec[1][9][0]                             License Type
+adarec[1][9][1]                             Date
+adarec[1][10][0]                            Juristiction
+adarec[1][10][1]                            Expiration data
+adarec[1][11]                               Owner
+adarec[1][12]                               Master Establishment
+adarec[1][13]                               Service
+adarec[2]                                   Inspections
+adarec[2][0]                                Inspection format
+adarec[2][x][0] x!=0                        Date of event
+adarec[2][x][1]                             Event type
+adarec[2][x][2]                             Violations
+adarec[2][x][3]                             Critical violations
+adarec[2][x][4]                             Findings

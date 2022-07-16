@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Session SID="372" BitFlags="48">
+  <SessionTimers ClientConnected="2018-06-19T18:12:00.5053798-07:00" ClientBeginRequest="2018-06-19T18:12:30.457118-07:00" GotRequestHeaders="2018-06-19T18:12:30.457118-07:00" ClientDoneRequest="2018-06-19T18:12:30.457118-07:00" GatewayTime="0" DNSTime="0" TCPConnectTime="212" HTTPSHandshakeTime="0" ServerConnected="2018-06-19T18:12:30.6709653-07:00" FiddlerBeginRequest="2018-06-19T18:12:30.6709653-07:00" ServerGotRequest="2018-06-19T18:12:30.6709653-07:00" ServerBeginResponse="2018-06-19T18:12:30.4580895-07:00" GotResponseHeaders="2018-06-19T18:12:30.7569025-07:00" ServerDoneResponse="2018-06-19T18:12:30.7569025-07:00" ClientBeginResponse="2018-06-19T18:12:30.7569025-07:00" ClientDoneResponse="2018-06-19T18:12:30.7569025-07:00" />
+  <PipeInfo Streamed="true" CltReuse="true" />
+  <SessionFlags>
+    <SessionFlag N="x-egressport" V="63921" />
+    <SessionFlag N="x-responsebodytransferlength" V="220" />
+    <SessionFlag N="x-clientport" V="63885" />
+    <SessionFlag N="x-clientip" V="::ffff:192.168.1.18" />
+    <SessionFlag N="x-serversocket" V="REUSE ServerPipe#325*NEW*" />
+    <SessionFlag N="x-hostip" V="66.39.42.45" />
+    <SessionFlag N="x-retryonfailedreceive" V="*" />
+    <SessionFlag N="x-processinfo" V="noxvmhandle:1272" />
+  </SessionFlags>
+</Session>

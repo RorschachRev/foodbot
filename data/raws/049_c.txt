@@ -1,0 +1,6 @@
+GET https://hsdmobile.cchealth.org/WSFFISMobile/facade/FindFacilities/0/tac%20bell/20/-33.868818/151.209290 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SCH-I829 Build/JZO54K)
+Host: hsdmobile.cchealth.org
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

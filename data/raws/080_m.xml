@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Session SID="80" BitFlags="2100">
+  <SessionTimers ClientConnected="2018-06-19T18:08:06.0491512-07:00" ClientBeginRequest="2018-06-19T18:08:06.0511169-07:00" GotRequestHeaders="2018-06-19T18:08:06.0511169-07:00" ClientDoneRequest="2018-06-19T18:08:06.0511169-07:00" GatewayTime="0" DNSTime="0" TCPConnectTime="28" HTTPSHandshakeTime="47" ServerConnected="2018-06-19T18:08:06.0804217-07:00" FiddlerBeginRequest="2018-06-19T18:08:06.0804217-07:00" ServerGotRequest="2018-06-19T18:08:06.0804217-07:00" ServerBeginResponse="0001-01-01T00:00:00" GotResponseHeaders="0001-01-01T00:00:00" ServerDoneResponse="0001-01-01T00:00:00" ClientBeginResponse="2018-06-19T18:08:06.0804217-07:00" ClientDoneResponse="2018-06-19T18:08:06.0804217-07:00" />
+  <PipeInfo Streamed="true" />
+  <TunnelInfo BytesEgress="0" BytesIngress="0" />
+  <SessionFlags>
+    <SessionFlag N="https-client-snihostname" V="www.googleapis.com" />
+    <SessionFlag N="x-egressport" V="63580" />
+    <SessionFlag N="x-responsebodytransferlength" V="0" />
+    <SessionFlag N="x-clientport" V="63579" />
+    <SessionFlag N="https-server-version" V="Tls12" />
+    <SessionFlag N="x-clientip" V="::ffff:192.168.1.18" />
+    <SessionFlag N="https-client-sessionid" V="80 4D 00 00 AF 95 BB 08 3B EE 3B 62 C7 3D E6 54 3D 24 60 09 12 F2 BE AD 0B BC 5F 69 BB 7C 9D 26" />
+    <SessionFlag N="x-hostip" V="74.125.197.95" />
+    <SessionFlag N="https-client-version" V="Tls12" />
+    <SessionFlag N="x-processinfo" V="noxvmhandle:1272" />
+    <SessionFlag N="https-server-cipher" V="Aes128 128bits" />
+  </SessionFlags>
+</Session>

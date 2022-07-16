@@ -1,0 +1,6 @@
+GET https://csi.gstatic.com/csi?s=maps_android_api&v=3&action=map_start_up&it=map_load.2267,init.62,on_resume.8,on_create.1&irt=2267,62,73,63 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SCH-I829 Build/JZO54K)
+Host: csi.gstatic.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

@@ -1,0 +1,101 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 20 Jun 2018 01:06:55 GMT
+Content-Length: 3239
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>
+	Violation Details
+</title><meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><link rel="shortcut icon" type="image/x-icon" href="http://www.cchealth.org/favicon.ico" /><link href="Styles/StyleSheet.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./violations.aspx?agencyid=463&amp;category=%7e&amp;violationcode=116" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjEyNzAwODQ5ZBgBBRhMZWdlbmRDdGwkR3JhZGVzR3JpZFZpZXcPPCsADAEIZmR4dnKMbpIW3W6ocyk9K6519Pg/fb4KOUIl6FVK4i5bMQ==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="440F57C3" />
+</div>
+<a name="top"></a>
+    <h1 class="pageTitle">Violation Details</h1>
+    <br />
+    <div id="HeaderPanel">
+	
+        <span id="NoteLBL">Note: this violation code is a general description of an infraction that was documented by inspectors during a site visit.</span>
+    
+</div>
+<h2></h2>
+           <a name="116"></a><span class="sectionTitle"> Food Handler cards available and current, Minor</span><br /><br /><br /><br /><br />
+
+    <div id="FooterPanel">
+	
+
+    
+
+        <div style="height: 7px;"></div>
+        <hr />
+        <div style="height: 3px;"></div>
+    <!-- BEGIN SIGNATURE INCLUDE -->
+
+    <div class="signature_box">
+
+    <div class="box_light_blue">
+    Content provided by 
+        <a id="DivisionHL" href="http://www.sonoma-county.org/health/about/publichealth_ehs.asp">Environmental Health and Safety</a>.
+    </div>
+    </div>
+
+    <!-- END SIGNATURE INCLUDE   -->
+
+    <!-- BEGIN FOOTER ELEMENT -->
+
+  	<br />
+
+  	<!-- BEGIN NESTED TABLE FOR 2-COLUMN FORMAT -->
+
+  	<table cellspacing="0" cellpadding="4" border="0">
+  	<tr>
+  	<td valign="top">
+          <a id="CountyGraphicHL" href="http://sonomacounty.ca.gov/"><img id="CountyGraphicIMG" src="AttachmentViewer.aspx?FileName=96x96.png&amp;FileType=png&amp;ObjectKey=bdf525a7-9aed-4ba3-b86f-02ad43d42918" alt="County graphic" style="width:70px;" /></a>
+  	</td>
+
+  	<td>&nbsp;</td>
+
+  	<td>
+  	<div id="footer" class="smalltext">
+          <span id="CountyDescriptionLBL">Sonoma County, California, USA</span><br />
+  	Copyright &copy; 
+          <span id="CopyrightLBL">2009-2018</span>&nbsp;
+          <a id="DepartmentNameHL" href="http://sonomacounty.ca.gov/Health-Services/">Department of Health Services</a>
+          <div style="height:10px;"></div>
+          <span id="Label2" style="font-size:Small;">Updated: </span>
+          <span id="LastFullImportDateLBL" style="font-size:Small;">06/19/2018 04:51</span>
+          <div style="height:10px;"></div>
+          <a id="TopOfPageHL" href="Violations.aspx?AgencyID=463">View all possible violations</a>
+
+  	</div>
+
+  	</td>
+  	</tr>
+
+  	</table>
+
+  	<!-- END NESTED TABLE FOR 2-COLUMN FORMAT -->
+
+    <!-- END FOOTER ELEMENT -->
+    
+</div>
+
+
+    </form>
+</body>
+</html>

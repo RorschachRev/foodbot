@@ -1,0 +1,179 @@
+GET /ID/BonnevilleIdahoFalls/Inspect.nsf/vw_InspectionsPubSumm?OpenView&RestrictToCategory=27358721FBC019BA862577850067CD0B HTTP/1.1
+Host: www.inspectionsonline.us
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://www.inspectionsonline.us/ID/bonnevilleidahofalls/Inspect.nsf/SearchEstab?SearchView&Query=[fld_Program]+CONTAINS+kw_Food+AND+([fld_EstabName]+CONTAINS+taco]+OR+[fld_FaciName]+CONTAINS+taco])&SearchOrder=4&SearchWV=TRUE&SearchFuzzy=TRUE
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+HTTP/1.1 200 OK
+Server: Lotus-Domino
+Date: Sat, 23 Jun 2018 07:42:03 GMT
+Last-Modified: Sat, 23 Jun 2018 07:42:01 GMT
+Expires: Tue, 01 Jan 1980 06:00:00 GMT
+Content-Type: text/html; charset=US-ASCII
+Content-Length: 17234
+Cache-control: no-cache
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="robots" content="noindex">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="0">
+<META HTTP-EQUIV="EXPIRES" CONTENT="0"><STYLE type="text/css">A:link, A:visited { text-decoration: none; color: darkblue }A:active { text-decoration: none; color: darkblue }A:hover {text-decoration: underline }
+DIV.documentBody {Height: 0px ;	Width: 100% ;	overflow: auto	}DIV.tab {	position: relative ;	display: none	}DIV.print {	position: relative ;	display: none	}.bg1 { background-color: #e8e8e8	}.bg2 { background-color: #d0d0d0	}.bN { border-top: solid #c0c0c0 1px	}.bE { border-right: solid #c0c0c0 1px	}.bS { border-bottom: solid #c0c0c0 1px	}.bS2 { border-bottom: solid #e0e0e0 1px	}.bW { border-left: solid #c0c0c0 1px	}.ul { text-decoration: underline	}.h1 { font-family: verdana,sans-serif;	font-size: 12pt;	font-weight: 800	}.h2 { background-color: ; 	color: ; 	font-family: verdana,sans-serif; 	font-size: 10pt; 	font-weight: 800	}.gt { font-family: verdana,sans-serif;	font-size: 8pt	}.tt { font-family: verdana,sans-serif;	font-size: 7pt	}.clk0 {	cursor: default	}.clk1 {	text-decoration: underline; cursor: hand	}.hidden{ visibility:hidden;		display:none	} <!--H2{ color: ; }--></STYLE>
+<script language="JavaScript" type="text/javascript" src="/ID/BonnevilleIdahoFalls/Inspect.nsf/jsl_DHTMLapi?OpenJavascriptLibrary">
+</script>
+
+<script language="JavaScript" type="text/javascript" src="/ID/BonnevilleIdahoFalls/Inspect.nsf/jsl_ErrHandling?OpenJavascriptLibrary">
+</script>
+
+<script language="JavaScript" type="text/javascript" src="/ID/BonnevilleIdahoFalls/Inspect.nsf/jsl_Ajax?OpenJavascriptLibrary">
+</script>
+
+<script language="JavaScript" type="text/javascript" src="/ID/BonnevilleIdahoFalls/Inspect.nsf/jsh_PublicSearchSummary?OpenJavascriptLibrary">
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+
+/*
+var frm;
+
+function loadSummary ()
+{	frm = document.forms[0];
+	initDHTMLapi();
+	
+	var vwTable = getRawObject ("vwTbl");
+	if (!vwTable) return;
+	if (vwTable.rows.length < 2) return;
+	var UNID = vwTable.rows[1].cells[0].innerHTML.toLowerCase().slice (vwTable.rows[1].cells[0].innerHTML.toLowerCase().indexOf("punid=")+6).slice(0,32);
+	
+	var infoReqObj = new AJXEntity();
+	infoReqObj.setRtnHandler(rtnInfoReq);
+	
+	var URL = document.URL;
+	var URL = URL.toLowerCase().slice(0,URL.indexOf('.nsf')+4)+'/(ag_getDocValues)?OpenAgent';
+	URL += '&xx_UNID='+UNID;
+	URL += '&xx_fldList=fld_EstabName';
+	URL += '~fld_FaciName';
+	URL += '~fld_FStreetNo';
+	URL += '~fld_FStreetName';
+	URL += '~fld_FCity';
+	URL += '~fld_FProv';
+	URL += '~fld_FPCode';
+	URL += '~fld_EstType';
+	URL += '~fld_SCPhone';
+	URL += '~fld_InspectionDate';
+	URL += '~fld_AllcvCounter';
+	URL += '~fld_AllvCounter';
+//	URL += '~fld_ScoreRF';
+//	URL += '~fld_ScoreGRP';
+
+	
+	infoReqObj.setURL(URL);
+	infoReqObj.setAsync(true);
+	infoReqObj.setArgs(new Array());
+	infoReqObj.send();
+	
+	// display scores if needed
+	if ("kw_Yes" == frm.xx_Scoring.value)
+	{	var currRow, currCell;
+		var obj = getRawObject ("vwTbl");
+		if (obj)
+		{	for (var i=0; i<obj.rows.length; i++)
+			{	currRow = obj.rows[i];
+				currCell = currRow.cells[currRow.cells.length-1];
+				show(currCell);
+			}
+		}
+	}
+	
+}
+
+function rtnInfoReq (xmlReq, rtnArgs)
+{	infoArray = xmlReq.responseText.slice (1).split ("~");
+	
+	var obj = getRawObject ("EstabName");
+	if (obj)
+	{ 	if (infoArray[0] == infoArray[1]) obj.innerHTML = infoArray[0];
+		else obj.innerHTML = infoArray[0] + " - " + infoArray[1];
+	}
+	
+	obj = getRawObject ("Addr");
+	if (obj) 	obj.innerHTML = infoArray[2] + " " + infoArray[3]  + ", " + infoArray[4]  + " " + infoArray[5].replace("kw_", "").replace("(S)", "");  + " " + infoArray[6] ;
+	
+	obj = getRawObject ("EstabType");
+	if (obj) 	obj.innerHTML = infoArray[7].replace("kw_", "").replace("(S)", "");
+	
+	obj = getRawObject ("Phone");
+	if (obj) 	obj.innerHTML = infoArray[8];
+	
+	obj = getRawObject ("iDate");
+	if (obj) 	obj.innerHTML = infoArray[9];
+	
+	obj = getRawObject ("cvCount");
+	if (obj) 	obj.innerHTML = parseInt (infoArray[10]);
+	
+	obj = getRawObject ("ncvCount");
+	if (obj) 	obj.innerHTML = parseInt(infoArray[11]) - parseInt(infoArray[10]);
+	
+}
+*/
+
+// -->
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+document._domino_target = "_self";
+function _doClick(v, o, t) {
+  var returnValue = false;
+  var url="/ID/BonnevilleIdahoFalls/Inspect.nsf/vw_InspectionsPubSumm?OpenView&RestrictToCategory=27358721FBC019BA862577850067CD0B&Click=" + v;
+  if (o.href != null) {
+    o.href = url;
+    returnValue = true;
+  } else {
+    if (t == null)
+      t = document._domino_target;
+    window.open(url, t);
+  }
+  return returnValue;
+}
+// -->
+</script>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" onload="loadSummary()
+">
+
+<form action=""><DIV ALIGN=right><INPUT CLASS=gt TYPE="button" VALUE="Back" onClick='history.back();'></DIV>
+<HR>
+<TABLE WIDTH=600px CLASS="gt">
+<THEAD><TR><TH WIDTH="140px"></TH><TH WIDTH="10px"></TH><TH WIDTH="70%"></TH></TR></THEAD>
+<TBODY>
+<TR><TD ID="EstabName" CLASS="h1" COLSPAN=3></TD></TR>
+<TR><TD COLSPAN=3> </TD></TR>
+<TR><TD ALIGN="right"><B>Address:</B></TD>			<TD></TD>	<TD ID="Addr"></TD></TR>
+<TR><TD ALIGN="right"><B>Facility Type:</B></TD>	<TD></TD>	<TD ID="EstabType"></TD></TR>
+<TR><TD ALIGN="right"><B>Telephone:</B></TD>		<TD></TD>	<TD ID="Phone"></TD></TR>
+<TR><TD CLASS="h1" COLSPAN=3> </TD></TR>
+<TR><TD COLSPAN=3><B>Summary of last inspection</B></TD></TR>
+<TR><TD ALIGN="right"><B>Inspection Date:</B></TD>				<TD></TD>	<TD ID="iDate"></TD></TR>
+<TR><TD ALIGN="right"><B>Critical Violations:</B></TD>			<TD></TD>	<TD ID="cvCount"></TD></TR>
+<TR><TD ALIGN="right"><B>Non-Critical Violations:</B></TD>	<TD></TD>	<TD ID="ncvCount"></TD></TR>
+</TBODY></TABLE>
+<BR><HR>
+<TABLE ID="vwTbl" WIDTH="600px" CLASS=gt><THEAD><TR><TH WIDTH='15%' class='h2'>Inspection Type</TH><TH WIDTH='15%' class='h2'>Date</TH><TH WIDTH='10%' class='h2'>Violations</TH><TH WIDTH='10%' class='h2'>Score (RF)</TH><TH WIDTH='10%' class='h2'>Score (GRP)</TH></TR></THEAD><TBODY>
+<TR class='gt hidden' ALIGN="center" z_purpose="kw_Follow-Up(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=F11516528392E0D6872582470077F2DE" TARGET=_self>Follow-Up</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=F11516528392E0D6872582470077F2DE TARGET=_self>03/05/2018</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=F11516528392E0D6872582470077F2DE>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=F11516528392E0D6872582470077F2DE>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=F11516528392E0D6872582470077F2DE>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=2F8AF59D96927F538725824000796BD4" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=2F8AF59D96927F538725824000796BD4 TARGET=_self>02/26/2018</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=2F8AF59D96927F538725824000796BD4>2 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=2F8AF59D96927F538725824000796BD4>3</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=2F8AF59D96927F538725824000796BD4>1</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Follow-Up(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BFA417154ED3EC3D872580BB0061D60B" TARGET=_self>Follow-Up</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BFA417154ED3EC3D872580BB0061D60B TARGET=_self>02/02/2017</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BFA417154ED3EC3D872580BB0061D60B>1 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BFA417154ED3EC3D872580BB0061D60B>1</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BFA417154ED3EC3D872580BB0061D60B>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=59825518D3C66844872580B40065D9D3" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=59825518D3C66844872580B40065D9D3 TARGET=_self>01/26/2017</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=59825518D3C66844872580B40065D9D3>1 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=59825518D3C66844872580B40065D9D3>1</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=59825518D3C66844872580B40065D9D3>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=A965DBEF1243DEEB87257F7E0075B8B6" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=A965DBEF1243DEEB87257F7E0075B8B6 TARGET=_self>03/22/2016</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=A965DBEF1243DEEB87257F7E0075B8B6>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=A965DBEF1243DEEB87257F7E0075B8B6>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=A965DBEF1243DEEB87257F7E0075B8B6>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=92FCB03AD4DA09C887257DE800657381" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=92FCB03AD4DA09C887257DE800657381 TARGET=_self>02/10/2015</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=92FCB03AD4DA09C887257DE800657381>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=92FCB03AD4DA09C887257DE800657381>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=92FCB03AD4DA09C887257DE800657381>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Follow-Up(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=6C71F865866B52E487257C840071A240" TARGET=_self>Follow-Up</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=6C71F865866B52E487257C840071A240 TARGET=_self>02/19/2014</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=6C71F865866B52E487257C840071A240>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=6C71F865866B52E487257C840071A240>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=6C71F865866B52E487257C840071A240>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=792CF36E9EB0CF3687257C7D00752CD0" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=792CF36E9EB0CF3687257C7D00752CD0 TARGET=_self>02/12/2014</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=792CF36E9EB0CF3687257C7D00752CD0>2 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=792CF36E9EB0CF3687257C7D00752CD0>2</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=792CF36E9EB0CF3687257C7D00752CD0>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=DF78E1DFCBDEA52C87257B0800746D03" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=DF78E1DFCBDEA52C87257B0800746D03 TARGET=_self>02/04/2013</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=DF78E1DFCBDEA52C87257B0800746D03>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=DF78E1DFCBDEA52C87257B0800746D03>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=DF78E1DFCBDEA52C87257B0800746D03>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Follow-Up(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=224E46209F0516E5872579BB007E087D" TARGET=_self>Follow-Up</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=224E46209F0516E5872579BB007E087D TARGET=_self>03/08/2012</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=224E46209F0516E5872579BB007E087D>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=224E46209F0516E5872579BB007E087D>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=224E46209F0516E5872579BB007E087D>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Follow-Up(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BA81B07C6E7BC2D0872579B40079881A" TARGET=_self>Follow-Up</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BA81B07C6E7BC2D0872579B40079881A TARGET=_self>03/01/2012</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BA81B07C6E7BC2D0872579B40079881A>1 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BA81B07C6E7BC2D0872579B40079881A>2</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=BA81B07C6E7BC2D0872579B40079881A>0</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=11F8642CCDD6C7BC872579AD00765320" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=11F8642CCDD6C7BC872579AD00765320 TARGET=_self>02/23/2012</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=11F8642CCDD6C7BC872579AD00765320>3 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=11F8642CCDD6C7BC872579AD00765320>3</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=11F8642CCDD6C7BC872579AD00765320>2</A></TD></TR><TR class='gt hidden' ALIGN="center" z_purpose="kw_Routine(S)" ><TD WIDTH='15%'><A HREF="/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=5E0995FFF3FC904E87257839007648DD" TARGET=_self>Routine</A></TD><TD WIDTH='15%' ALIGN="center"><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=5E0995FFF3FC904E87257839007648DD TARGET=_self>02/16/2011</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=5E0995FFF3FC904E87257839007648DD>0 critical</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=5E0995FFF3FC904E87257839007648DD>0</A></TD><TD WIDTH='10%'><A HREF=/ID/BonnevilleIdahoFalls/Inspect.nsf/(ag_dspPubDetail)?OpenAgent&pUNID=5E0995FFF3FC904E87257839007648DD>0</A></TD></TR>
+</TBODY></TABLE><HR><DIV ALIGN=right><INPUT CLASS=gt TYPE="button" VALUE="Back" onClick='history.back();'></DIV>
+
+<input name="xx_Scoring" type="hidden" value="kw_No">
+<input name="xx_iTypesFood" type="hidden" value="">
+<input name="xx_iTypesDaycare" type="hidden" value="">
+<input name="xx_iTypesPubAccommoddation" type="hidden" value=""></form>
+</body>
+</html>

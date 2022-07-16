@@ -1,0 +1,33 @@
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 18:08:23.120
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes256 256bits
+Hash Algorithm: Sha384 384bits
+Key Exchange: ECDHE_RSA (0xae06) 256bits
+
+== Server Certificate ==========
+[Subject]
+  CN=www.cchealth.org, OU=COMODO SSL, OU=Hosted by pair Networks, OU=Domain Control Validated
+
+[Issuer]
+  CN=COMODO RSA Domain Validation Secure Server CA, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB
+
+[Serial Number]
+  5E721C6F8714A77B784AA167BE974F7C
+
+[Not Before]
+  9/3/2017 5:00:00 PM
+
+[Not After]
+  9/3/2020 4:59:59 PM
+
+[Thumbprint]
+  DF3F79909E00FA6623AD0DFE8BA596FDA3CDEAAF
+
+[SubjectAltNames]
+www.cchealth.org, cchealth.org

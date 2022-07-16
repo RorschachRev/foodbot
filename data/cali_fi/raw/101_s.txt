@@ -1,0 +1,33 @@
+HTTP/1.1 200 Connection Established
+FiddlerGateway: Direct
+StartTime: 18:08:19.577
+Connection: close
+
+Encrypted HTTPS traffic flows through this CONNECT tunnel. HTTPS Decryption is enabled in Fiddler, so decrypted sessions running in this tunnel will be shown in the Web Sessions list.
+
+Secure Protocol: Tls12
+Cipher: Aes256 256bits
+Hash Algorithm: Sha1 160bits
+Key Exchange: RsaKeyX 2048bits
+
+== Server Certificate ==========
+[Subject]
+  CN=hsdmobile.cchealth.org, OU=IT, O=Contra Costa County Health Services, L=Concord, S=California, C=US
+
+[Issuer]
+  CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+
+[Serial Number]
+  0E46D360DD32C6C32409F45F8524A4C6
+
+[Not Before]
+  4/26/2018 5:00:00 PM
+
+[Not After]
+  4/8/2019 5:00:00 AM
+
+[Thumbprint]
+  668C4B4085E9FDE7976278941698C45992829A15
+
+[SubjectAltNames]
+hsdmobile.cchealth.org

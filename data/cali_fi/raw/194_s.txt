@@ -1,0 +1,12 @@
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: *
+Date: Wed, 20 Jun 2018 01:08:09 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Wed, 21 Jan 2004 19:51:30 GMT
+Content-Type: image/gif
+Server: Golfe2
+Content-Length: 0
+Alt-Svc: quic=":443"; ma=2592000; v="43,42,41,39,35"
+

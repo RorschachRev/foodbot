@@ -1,0 +1,39 @@
+CONNECT www.googleapis.com:443 HTTP/1.1
+Host: www.googleapis.com
+User-Agent: Android/com.google.android.gms/12685005 (dream2qltechn JZO54K); gzip
+Connection: Keep-Alive
+
+A SSLv3-compatible ClientHello handshake was found. Fiddler extracted the parameters below.
+
+Version: 3.3 (TLS/1.2)
+Random: E5 4F 9E 2B F8 B3 E2 52 7E 59 A3 67 F6 81 26 BE E1 F1 2A F3 3D C5 85 BC 77 9A C7 02 7B E2 4E 0A
+"Time": 3/10/1993 12:30:29 PM
+SessionID: 80 4D 00 00 AF 95 BB 08 3B EE 3B 62 C7 3D E6 54 3D 24 60 09 12 F2 BE AD 0B BC 5F 69 BB 7C 9D 26
+Extensions: 
+	renegotiation_info	00
+	server_name	www.googleapis.com
+	extended_master_secret	empty
+	signature_algs	sha256_ecdsa, Unknown[0x8]_Unknown[0x4], sha256_rsa, sha384_ecdsa, Unknown[0x8]_Unknown[0x5], sha384_rsa, Unknown[0x8]_Unknown[0x6], sha512_rsa, sha1_rsa
+	status_request	OCSP - Implicit Responder
+	ec_point_formats	uncompressed [0x0]
+	elliptic_curves	unknown [0x1D), secp256r1 [0x17], secp384r1 [0x18]
+Ciphers: 
+	[CCA9]	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+	[C02B]	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+	[C02C]	TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+	[CCA8]	TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+	[C02F]	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	[C030]	TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	[C009]	TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+	[C00A]	TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+	[C013]	TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+	[C014]	TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	[009C]	TLS_RSA_WITH_AES_128_GCM_SHA256
+	[009D]	TLS_RSA_WITH_AES_256_GCM_SHA384
+	[002F]	TLS_RSA_AES_128_SHA
+	[0035]	TLS_RSA_AES_256_SHA
+
+Compression: 
+	[00]	NO_COMPRESSION
+
+

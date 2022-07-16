@@ -1,0 +1,6 @@
+GET https://hsdmobile.cchealth.org/WSFFISMobile/AttachmentViewer.aspx?FileName=Berkeley48x48.png&FileType=png&ObjectKey=4a37eaca-1d21-42a4-aff3-7d957dfc7ec7 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SCH-I829 Build/JZO54K)
+Host: hsdmobile.cchealth.org
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

@@ -1,0 +1,121 @@
+tidybite
+cookrate
+dintertips
+myfoodgrade
+mycleancafe
+neatnibble
+feedoftrust
+
+
+.frames.RTCPeerConnection["[[TargetFunction]]"]["[[FunctionLocation]]"]
+
+window.frames.RTCPeerConnection["[[TargetFunction]]"]["[[Scopes]]"]["0"].protectConfiguration["[[Scopes]]"]["0"].WrappedRTCPeerConnection
+
+216.58.216.174	Google
+
+
+208.85.188.158	Lotus Domino	on Prominic.net
+80/tcp   open   http
+81/tcp   closed hosts2-ns
+443/tcp  open   https
+1352/tcp open   lotusnotes
+Microsoft Windows 2008|7 (97%)
+FileCount=84
+TotalFileSize=17764010
+Version=9.0.0.0
+http://www-10.lotus.com/ldd/fixlist.nsf/8d1c0550e6242b69852570c900549a74/ef748be11ac2e99285257ca8006fc091?OpenDocument
+https://www.cvedetails.com/vulnerability-list/vendor_id-14/product_id-1563/version_id-149678/IBM-Lotus-Domino-9.0.0.0.html
+https://www.snort.org/rule_docs/1-31336
+https://securitytracker.com/id/1028884
+
+
+96.18.70.11	SSL data
+
+
+12	0.850092838	192.168.1.11	208.85.188.158	HTTP	858	GET /ID/BonnevilleIdahoFalls/Inspect.nsf/vw_InspectionsPubSumm?OpenView&RestrictToCategory=27358721FBC019BA862577850067CD0B HTTP/1.1 
+
+Kansas City, MO - Search Page
+www.inspectionsonline.us/foodsafety/mousakansascity/search.htm
+Restaurant Inspections Online Restaurant inspections are provided to inform the public about food establishments in Kansas City, MO. Inspections on this site ...
+Search Page
+www.inspectionsonline.us/foodsafety/mtLewisandClarkHelena/search.htm
+Food Establishment Inspection Reports Lewis & Clark Public Health Department conducts annual inspections of food establishments in Lewis & Clark County.
+Snohomish Health District
+www.inspectionsonline.us/foodsafety/wasnohomisheverett/search.htm
+Online Restaurant Inspection Reports.
+Search Page
+www.inspectionsonline.us/foodsafety/MTFlatheadKalispell/Search.htm
+Welcome to the Flathead County inspection results search page. Enter search criteria in the boxes below and click "Search" to view a list of establishments that ...
+Search Page
+www.inspectionsonline.us/foodsafety/utCacheNorthLogan/search.htm
+Please note: Inspections reflect a "snapshot" of the operation at our time of observation. The number of violations during an inspection may not reflect the typical ...
+Search Page
+www.inspectionsonline.us/foodsafety/ututahprovo/search.htm
+Enter search criteria for at least one of the categories below and click Search. If you do not know the entire name of the Facility or Street you want to search for, ...
+online - Search Page
+www.inspectionsonline.us/foodsafety/MOClayLiberty/search.htm
+It is a shared responsibility of the food industry and Clay County Public Health Center to ensure that food provided to the consumer is safe and does not ...
+
+MO	
+MT
+WA
+MT
+UT
+
+
+https://iowa.usasafeinspect.com/Inspection/PublicInspectionSearch.aspx
+same software here:
+https://foodsafety.kda.ks.gov/FoodSafety/Web/Inspection/PublicInspectionSearch.aspx
+
+http://www.co.jefferson.wa.us/1143/Restaurant-Inspections-Online
+
+=====================
+http://www.foodpoisonjournal.com/food-poisoning-resources/restaurant-inspections-online-who-has-them-and-who-does-not/
+=====================
+
+https://public.govdelivery.com/accounts/AZMARIC/subscriber/new
+https://inspectionrepo.hazelanalytics.com/
+https://www.phin.state.ok.us/Inspections/
+https://envapp.maricopa.gov/EnvironmentalHealth/FoodSearchInspection?p=FD-01448&i=0
+https://envapp.maricopa.gov/EnvironmentalHealth/FoodSearchInspection?p=FD-00458&i=0
+https://envapp.maricopa.gov/EnvironmentalHealth/FoodInspections/Weekly?Length=15
+http://agriculture.ks.gov/divisions-programs/food-safety-lodging/inspection-results
+https://iowa.usasafeinspect.com/Inspection/PublicInspectionSearch.aspx
+https://www.co.kittitas.wa.us/health/food-establishments.aspx
+http://info.kingcounty.gov/health/ehs/foodsafety/inspections/search.aspx
+http://www.sussex.nj.us/Cit-e-Access/webpage.cfm?TID=7&TPID=11876
+https://www.citylab.com/life/2015/04/how-sanitary-are-your-local-restaurants/391601/
+http://cognospublic.cabq.gov/cabqcognos/cgi-bin/cognos.cgi?b_action=cognosViewer&ui.action=run&ui.object=%2fcontent%2ffolder%5b%40name%3d%27Transparency%27%5d%2ffolder%5b%40name%3d%27Business%20Information%27%5d%2freport%5b%40name%3d%27Food%20Inspections%20Search%27%5d&ui.name=Food%20Inspections%20Search&run.outputFormat=&run.prompt=true
+https://www.cabq.gov/environmentalhealth/food-safety/report-food-complaint
+http://www.co.waupaca.wi.us/departments/health_and_human_services/view_inspections_online.php
+http://www.ci.watertown.wi.us/departments/health_department/online_inspection_reports.php#.Wy4Mwp-YWV4
+https://public.cdpehs.com/NCENVPBL/ESTABLISHMENT/ShowESTABLISHMENTTablePage.aspx?ESTTST_CTY=43
+https://www.healthspace.com/clients/Arizona/Yavapai/Yavapai_Web_Live.nsf
+	inurl: lists 26 clients, most of them in Ohio
+http://www.swordsolutions.com/Inspections 	competition in Michigan
+http://vldhealth.org/restaurantInspections.html	results as a single PDF per year
+https://www.healthspace.com/Clients/Ohio/Lake/Lake_Web_Live.nsf
+http://healthspace.com/Clients/ohio/Ohio_Website.nsf
+http://sbtapp1.co.stanislaus.ca.us/DERFoodFacilities/home.jsp
+http://www.agriculture.pa.gov/consumer_protection/FoodSafety/retail-food-inspection-reports/Pages/default.aspx
+http://webapp.montcopa.org/health/Inspections/
+https://pa.healthinspections.us/bucks/
+https://dph.georgia.gov/environmental-health-inspections
+https://www.aahealth.org/food-facility-inspections/
+https://www.aahealth.org/past-food-service-inspection-reports/
+https://www.cityofboston.gov/isd/health/mfc/default.aspx
+https://www.weldgov.com/departments/health_and_environment/environmental_health/food_safety_for_regulated_facilities/restaurant_inspections/
+https://www.radnor.com/824/Food-Establishment-Inspection-Records
+
+error:	https://www.co.washington.or.us/services.cfm?page=4&lang=e&serviceid=763
+canada	http://healthinspections.saskatchewan.ca/Restaurants/Map
+map data	https://www.easymapmaker.com/features/large-data-sets/
+
+here maps:	https://jsfiddle.net/hbv1h4f8/4/
+https://github.com/heremaps/jsfiddle-github
+https://github.com/heremaps/maps-api-for-javascript-examples
+http://heremaps.github.io/map-linkbuilder-app/
+https://github.com/heremaps
+https://github.com/heremaps/map-linkbuilder-app
+https://wego.here.com/france/paris/landmark-attraction/eiffel-tower--250u09tu-4561b8da952f4fd79c4e1998c3fcf032?map=48.86202,2.31484,14,normal
+partner and mapping? 85 countries:	Navmii

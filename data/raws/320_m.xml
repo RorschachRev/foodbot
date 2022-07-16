@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Session SID="320" BitFlags="2100">
+  <SessionTimers ClientConnected="2018-06-19T18:12:00.2417174-07:00" ClientBeginRequest="2018-06-19T18:12:00.2436984-07:00" GotRequestHeaders="2018-06-19T18:12:00.2436984-07:00" ClientDoneRequest="2018-06-19T18:12:00.2436984-07:00" GatewayTime="0" DNSTime="0" TCPConnectTime="44" HTTPSHandshakeTime="44" ServerConnected="2018-06-19T18:12:00.2885922-07:00" FiddlerBeginRequest="2018-06-19T18:12:00.2885922-07:00" ServerGotRequest="2018-06-19T18:12:00.2885922-07:00" ServerBeginResponse="0001-01-01T00:00:00" GotResponseHeaders="0001-01-01T00:00:00" ServerDoneResponse="0001-01-01T00:00:00" ClientBeginResponse="2018-06-19T18:12:00.2885922-07:00" ClientDoneResponse="2018-06-19T18:12:00.2885922-07:00" />
+  <PipeInfo Streamed="true" />
+  <TunnelInfo BytesEgress="0" BytesIngress="0" />
+  <SessionFlags>
+    <SessionFlag N="https-client-snihostname" V="hsdmobile.cchealth.org" />
+    <SessionFlag N="x-egressport" V="63882" />
+    <SessionFlag N="x-responsebodytransferlength" V="0" />
+    <SessionFlag N="x-clientport" V="63880" />
+    <SessionFlag N="https-server-version" V="Tls12" />
+    <SessionFlag N="x-clientip" V="::ffff:192.168.1.18" />
+    <SessionFlag N="https-client-sessionid" V="E5 1A 00 00 2D EF F8 AE F2 72 81 CC 05 13 7A A8 0E 79 B6 01 AC 5E D3 7C 39 D2 4B DF 4B B5 E1 26" />
+    <SessionFlag N="x-hostip" V="12.227.201.35" />
+    <SessionFlag N="https-client-version" V="Tls12" />
+    <SessionFlag N="x-processinfo" V="noxvmhandle:1272" />
+    <SessionFlag N="https-server-cipher" V="Aes256 256bits" />
+  </SessionFlags>
+</Session>

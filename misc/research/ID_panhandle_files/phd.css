@@ -1,0 +1,279 @@
+﻿/*
+	PHD CSS
+	Created:	2008.07.01
+   	Modified:	2013.01.23
+*/
+
+/*
+	PHD COLORS:
+	DARK BROWN:		#993300;
+ 	TAN:			#FC9000;
+ 	OFF WHITE:		#FFF2E5;
+ 	LT TEAL:		#6ED09F;
+ 	DK TEAL:		#3BB377;
+    NEW 2015 COLORS:
+    VIOLET:         #5B6580
+    PURE WHITE BK:  #FFFFFF
+    LOGO BLUE:      #003366
+*/
+
+
+
+/* MASTER STYLES 									*/									
+body {
+	margin:0 auto;
+	padding:0;
+	width:900px;
+	font-size:11px;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	line-height:120%;
+	color:#333;
+	background:#FFF2E5 repeat-y center top;
+	}
+/* MAIN WRAPPER FOR ENTIRE PAGE			*/
+#wrapper {	
+	margin:0 auto 0 auto;
+	width:900px;
+	padding:0;
+	text-align:left;
+	background-color:#FFF2E5;
+/*	border-top:1px solid #003366;
+	border-right:1px solid #003366;
+	border-left:1px solid #003366;
+	border-bottom:none; */
+	}
+h1 {
+	margin:20px 0 8px 0;
+	padding:0;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:normal;
+	font-weight:bold;
+	color:#003366;
+	}
+h2 {
+	margin:0;
+	padding:16px 0 0 0;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:normal;
+	font-weight:bold;
+	}
+h3 {
+	margin:12px 0 3px 0;
+	padding:0 0 3px 0;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:normal;
+	font-weight:bold;
+	border-bottom:1px solid DimGrey;
+/*	background-color:#eee; */
+	}
+/* H4 and H5 are used in the Site Index files only */
+h4 {
+	margin:8px 0 10px 0;
+	font-size:16px;
+	line-height:normal;
+	font-weight:bold;
+	border-bottom:1px solid #003366;
+	}
+h5 {
+	margin:0;
+	padding:16px 0 8px 0;
+	font-size:14px;
+	line-height:normal;
+	font-weight:bold;
+	}
+h6 {
+	margin:0;
+	padding:12px 0 0 0;
+	font-size:13px;
+	line-height:normal;
+	font-weight:bold;
+	color:#003366;
+	}
+p	{
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	margin:6px 0 6px 0;
+	padding:0;
+	}
+.smaller {
+	font-size:11px;
+	line-height:14px;
+	}
+img {
+	border:none;
+	}
+/* HEADER */
+#header	{
+	margin:0;
+	padding:0;
+	background:#5B6580 url(images/PHD-logo-small.gif) no-repeat top left;
+	width:100%;
+	height:80px;
+	position:relative;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	}
+.title1 {
+	margin:0;
+	padding:14px 0 0 100px;
+	font-size:2.3em;
+	line-height:normal;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:left;
+	}
+.titleRule {
+	margin:4px 0 7px 100px;
+	padding:0;
+	border-bottom:2px solid #ffffff;
+	}
+.title2 {
+	margin:0;
+	padding:0 0 0 100px;
+	font-size:1.5em;
+	line-height:normal;
+	font-weight:normal;
+	color:#ffffff;
+	text-align:left;
+	}
+.linkheader a:link
+{
+	color:#5B6580;
+	font-size:16px;
+	font-weight:bold;
+	line-height:140%;
+	text-decoration:none;
+}
+.linkheader a:hover
+{
+	color:#5B6580;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.linkheader a:visited
+{
+	color:#5B6580;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+/* MAIN CONTENT: STORY AND QUICKLINKS	*/
+.resulttable
+{
+	border-width:thin;
+	border-color:#3BB377;
+	font-size:10pt;
+	line-height:14pt;
+}
+.resultheader
+{
+	font-size:11pt;
+	line-height:14pt;
+	color:#FFFFFF;
+	background-color:#003366;
+}
+#main
+{
+	margin:0 auto 0 auto;
+/*	width:800px;	*/
+	padding:0;
+	text-align:left;
+/*
+	float:left;
+*/
+	background-color:#FFF2E5;
+}
+#main a, #main a:visited {
+	color:#003366;
+	text-decoration:none;
+	}
+#main a:hover {
+	color:#003366;
+	text-decoration:underline;
+	}
+/* FOOTER */
+#skipfooter {
+	display:none;
+	}
+#footer {
+	margin: 0;
+	padding:8px 0 0 0;
+	float:left;
+	clear:both;
+	position:relative;
+	font-size:11px;
+	text-align:center;
+	width:100%;
+	color:#ffffff;
+	background-color:#003366;
+	}
+#copyright {
+	margin: 0;
+	padding:8px 0 0 0;
+	float:left;
+	clear:both;
+	position:relative;
+	font-size:11px;
+	text-align:left;
+	width:800px;
+	color:#999999;
+	background-color:#FFF2E5;
+	border-bottom:1px solid #003366;
+	}
+/* DEFINES 20 SECTION DIVS FOR EXPANDABLE-COLLAPSIBLE SECTIONS */
+#sec0, #sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7, #sec8, #sec9, #sec10, #sec11, #sec12, #sec13, #sec14, #sec15, #sec16, #sec17, #sec18, #sec19, #sec20 {
+	margin:0;
+	padding:0;
+	width:100%;
+	}
+/* TEXT AND MISC STYLES */
+.borderbottom{
+	border-bottom:1px solid #003366;
+	}
+.more {
+	font-weight:bold;
+	}
+.sep {	/* pipe used to separate text links */
+	padding:0 8px 0 8px;
+	}
+.brown {
+	color:#003366;
+	}
+.bold {
+	font-weight:bold;
+	}
+.boldbrown {
+	color:#003366;
+	font-weight:bold;
+	}
+.photo {
+	margin:0 6px 0 0;
+	padding:0;
+	float:left;
+	clear:both;
+	border:1px solid #003366;
+	vertical-align:top;
+	}
+.padleft {
+	padding-left:12px;
+	}
+.padtop {
+	padding-top:12px;
+	}
+.martop {
+	margin-top:36px;
+	}
+.smBurg {
+	color:#31877B;
+	font-size:85%;
+	}
+.right {
+	text-align:right;
+	}
+.sm {
+	font-size:75%;
+	}

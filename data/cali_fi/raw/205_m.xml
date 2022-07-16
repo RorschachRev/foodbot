@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Session SID="205" BitFlags="2100">
+  <SessionTimers ClientConnected="2018-06-19T18:10:12.4091136-07:00" ClientBeginRequest="2018-06-19T18:10:12.4100919-07:00" GotRequestHeaders="2018-06-19T18:10:12.4100919-07:00" ClientDoneRequest="2018-06-19T18:10:12.4100919-07:00" GatewayTime="0" DNSTime="1" TCPConnectTime="537" HTTPSHandshakeTime="80" ServerConnected="2018-06-19T18:10:12.9484325-07:00" FiddlerBeginRequest="2018-06-19T18:10:12.9484325-07:00" ServerGotRequest="2018-06-19T18:10:12.949301-07:00" ServerBeginResponse="0001-01-01T00:00:00" GotResponseHeaders="0001-01-01T00:00:00" ServerDoneResponse="0001-01-01T00:00:00" ClientBeginResponse="2018-06-19T18:10:12.949301-07:00" ClientDoneResponse="2018-06-19T18:10:12.9502782-07:00" />
+  <PipeInfo Streamed="true" />
+  <TunnelInfo BytesEgress="0" BytesIngress="0" />
+  <SessionFlags>
+    <SessionFlag N="https-client-snihostname" V="android.clients.google.com" />
+    <SessionFlag N="x-egressport" V="63744" />
+    <SessionFlag N="x-responsebodytransferlength" V="0" />
+    <SessionFlag N="x-clientport" V="63743" />
+    <SessionFlag N="https-server-version" V="Tls12" />
+    <SessionFlag N="x-clientip" V="::ffff:192.168.1.18" />
+    <SessionFlag N="https-client-sessionid" V="77 4D 00 00 1F F8 26 BE A2 4F C2 48 50 F9 5C 45 74 DE E2 89 8C 48 2C 75 87 32 2E A4 B3 53 4C 71" />
+    <SessionFlag N="x-hostip" V="172.217.3.206" />
+    <SessionFlag N="https-client-version" V="Tls12" />
+    <SessionFlag N="x-processinfo" V="noxvmhandle:1272" />
+    <SessionFlag N="https-server-cipher" V="Aes128 128bits" />
+  </SessionFlags>
+</Session>

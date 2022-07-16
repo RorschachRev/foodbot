@@ -1,0 +1,6 @@
+GET https://hsdmobile.cchealth.org/WSFFISMobile/AttachmentViewer.aspx?FileName=Alameda@2x.png&FileType=png&ObjectKey=3e7d6e21-1d90-497c-8117-2422f1ea165a HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; SCH-I829 Build/JZO54K)
+Host: hsdmobile.cchealth.org
+Connection: Keep-Alive
+Accept-Encoding: gzip
+

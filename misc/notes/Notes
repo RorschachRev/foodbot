@@ -1,0 +1,19 @@
+Get different url for each letter and number, get urls from received page, then get new urls, then get data from received page. (food_IL_Henry&Stark.py, food_IL_Franklin.py, food_NY_Erie.py, food_MN_Chippewa.py, )
+
+Get url by number, check to see if still active, then get data. (food_IL_Kankakee.py, )
+
+Grab straight off page but skip some things. (food_IL_Monroe.py, food_IL_Pike, food_IL_StClair.py, )
+
+Use a post to get url for each character. (food_Iowa.py(not sure how that post works),)
+
+Get url by number and get data (food_IL_Tazewell.py, )
+
+Post for frame then get json from frame(food_NY_Madison,, food_NY_Niagara.py,)
+
+Use cookie to grab entire database then get pdf links (food_IN_Grant.py, )
+
+Grab urls off page, get urls, then get data (food_MT_Cascade.py, )
+
+Selenium navigates around page and downloads pdfs (foodSe_IN_Grant.py, )
+
+

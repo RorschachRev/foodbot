@@ -1,0 +1,30 @@
+Lewis, hello. I am the delayed-gratification monkey. I have taken over for the instant-gratification monkey. Your brain has been steered by that bafoon for too long. Here's the scoop:
+
+You will now be putting a 
+
+'''
+NOTES:
+
+'''
+
+Section in the top of all of your foodbots, but after the imports. You will also no longer work on bots for longer than an hour.
+
+Your workflow looks as such:
+
+1) Move devbot into your devbot/lewis directory
+2) Open the file in your text editor of choice
+3) Add your NOTES Section
+	- Document the URL you are targeting
+	- Document the Query that you are sending to the URL for data
+	- Document the Date, as well as your Name (if you forget your name, please consult the long-term-memory elephant, your brain's specialist in such dealings)
+4) In a seperate window, run the foodbot <- Crucial
+5) Assess the runtime performance of the foodbot
+	- Did it run?
+	- Is the bot grabbing data?
+	- Are there errors?
+	- What are the errors?
+6) Investigate why the foodbot may not be behaving well
+7) Assign a Time Estimate to the foodbot in the notes section, along with notes as to why you think it will take the amount of time as estimated.
+8) If Not Working on Bot && Time Estimate < 1 Hour, work on bot
+	- Elif Working on Bot && Time is Up, take detailed notes about where you are stuck, and move bot back to devbots or badbots dependant on behavior
+	- Else, move bot back to devbots or badbots dependant on behavior
